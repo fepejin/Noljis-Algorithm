@@ -15,6 +15,6 @@ class Solution {
             
         }
         //toArray의 인자 : new String[0]
-        return answer.toArray(answer.toArray(new String[0]));
+        return answer.toArray(new String[0]);
     }
 }
